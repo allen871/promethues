@@ -1,0 +1,2 @@
+# promethues
+promethues安装
