@@ -14,11 +14,11 @@ kube-state-metrics
 Grafana
 
 manifests已经经过二次修改,对应官方分支release-0.7
-1. 开始安装
+1. 开始安装  
 [root@k8s-master manifests]# kubectl apply -f setup/
-2. 创建本地持久化存储,修改主机名和目录后执行
+2. 创建本地持久化存储,修改主机名和目录后执行  
 [root@k8s-master manifests]# kubectl apply -f store_local/
-3. 修改alertmanager-secret.yaml,增加报警邮箱
+3. 修改alertmanager-secret.yaml,增加报警邮箱  
 [root@k8s-master manifests]# kubectl apply -f .
 
 查看pod是否正常
